@@ -257,10 +257,12 @@ html {
 
 #fact1 {
   background-image: url("facts (3).png");
+  height: 800px;
 }
 
 #fact2 {
   background-image: url("facts (2).png");
+  height: 800px;
 }
 
 #fact3 {
