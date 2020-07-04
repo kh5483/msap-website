@@ -251,7 +251,7 @@ html {
 @media (max-width: 500px) {
   #learn-the-facts {
     font-size: 50px;
-    margin-top: 5ch;
+    margin-top: 7ch;
   }
 }
 
@@ -283,6 +283,14 @@ html {
 @media (max-width: 500px) {
   #fact3 {
     background-image: url("facts (6).png");
+  }
+}
+
+@media (max-width: 500px) {
+  #image-gethelp {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
   }
 }
 
