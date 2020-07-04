@@ -23,3 +23,36 @@
   }
 }
 
+@media (max-width: 500px) {
+  #fact1 {
+    background-image: url("facts (4).png");
+  }
+}
+
+#fact1 {
+  background-image: url("facts (3).png");
+  height: 800px;
+}
+
+@media (max-width: 500px) {
+  #fact2 {
+    background-image: url("facts (5).png");
+  }
+}
+
+#fact2 {
+  background-image: url("facts (2).png");
+  height: 800px;
+}
+
+@media (max-width: 500px) {
+  #fact3 {
+    background-image: url("facts (6).png");
+  }
+}
+
+#fact3 {
+  background-image: url("../../assets/img/facts.png");
+  height: 800px;
+}
+
