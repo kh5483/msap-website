@@ -231,6 +231,7 @@ li {
   background-size: auto;
   background-image: url("../../assets/img/remi-walle-UOwvwZ9Dy6w-unsplash.jpg");
   background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 html {
