@@ -260,15 +260,7 @@ html {
   }
 }
 
-#fact1 {
-  background-image: url("facts (3).png");
-}
-
-#fact2 {
-  background-image: url("facts (2).png");
-}
-
-#fact3 {
-  background-image: url("../../assets/img/facts.png");
+.highlight-blue {
+  margin-top: 80px;
 }
 
