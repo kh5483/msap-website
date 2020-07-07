@@ -25,8 +25,8 @@
   font-family: Montserrat, sans-serif;
   font-weight: 300;
   font-size: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 0px;
   background-color: white;
   border-radius: 10px;
@@ -52,13 +52,16 @@ li {
 }
 
 #psa-box {
-  height: 70%;
+  height: 60%;
   border-radius: 10px;
+  background-color: rgb(29,106,221);
 }
 
 #mentalhealth-box {
   height: 50%;
   border-radius: 10px;
+  color: rgb(255,255,255);
+  background-color: rgb(29,106,221);
 }
 
 .copyright {
@@ -97,14 +100,21 @@ li {
 
 #mentalhealthnotfact-box {
   border-radius: 10px;
+  background-color: rgb(29,106,221);
 }
 
 #calender-box {
   border-radius: 10px;
+  background-color: rgb(29,106,221);
 }
 
 #meet-the-team {
-  margin-top: 10px;
+  margin: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  color: rgb(51,51,51);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #our-story {
@@ -228,10 +238,6 @@ li {
 #image-gethelp {
   height: 100vh;
   width: 100%;
-  background-size: auto;
-  background-image: url("../../assets/img/remi-walle-UOwvwZ9Dy6w-unsplash.jpg");
-  background-position: bottom;
-  background-repeat: no-repeat;
 }
 
 html {
@@ -257,6 +263,179 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    border-radius: 0px;
+  }
+}
+
+#destress-image {
+  width: 100%;
+  height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#article {
+  padding-top: 20px;
+}
+
+#destress {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+#destress-item {
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 1ch;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  transition: box-shadow .3s;
+  border: 0.5px solid grey;
+}
+
+#methods-back {
+  background-color: white;
+  /*border-radius: 10px;*/
+  margin-bottom: 10px;
+}
+
+#destress-item:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#fun-image {
+  padding-top: 20px;
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#fun-activites {
+  margin-top: 20px;
+}
+
+#graphic {
+}
+
+#help {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#facts {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+  font-size: 72px;
+  padding-top: 40vh;
+  /*padding-bottom: 50vh;*/
+}
+
+#alone {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding-bottom: 50vh;
+}
+
+#blur {
+  animation: hide 1.5s ease;
+  backdrop-filter: blur(5px);
+}
+
+@keyframes hide {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  100% {
+    /*opacity: 1;*/
+    /*-webkit-filter: blur(0px);*/
+    /*-moz-filter: blur(0px);*/
+    /*-o-filter: blur(0px);*/
+    /*-ms-filter: blur(0px);*/
+    /*backdrop-filter: blur(5px);*/
+  }
+}
+
+#calender {
+  /*margin-top: 10px;*/
+}
+
+#donation {
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#background {
+  background-image: url("../../assets/img/remi-walle-UOwvwZ9Dy6w-unsplash.jpg");
+}
+
+@media (max-width: 500px) {
+  #background {
+    background-position: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #destress-image {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  #methods-back {
+    margin: 0px;
+    background-image: url("../../assets/img/jen-p-FoG8lotg7AA-unsplash.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 500px) {
+  #destress {
+    font-family: Lora, serif;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 100;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  #fun-activites {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  #calender {
+    height: 70vh;
+    padding: 10px;
+  }
+}
+
+#idontknowhatonamethis {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: rgb(255,255,255);
+}
+
+@media (max-width: 500px) {
+  #idontknowhatonamethis {
+    font-weight: 200;
   }
 }
 

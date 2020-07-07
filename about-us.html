@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
@@ -35,12 +36,12 @@
                         <li class="nav-item" role="presentation" style="padding-top: 8px;padding-bottom: 8px;"><a class="nav-link" href="index.html" style="color: rgb(0,0,0);padding-top: 0px;padding-right: 8px;padding-bottom: 0px;padding-left: 8px;font-family: Montserrat, sans-serif;font-weight: 300;">Home</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html" style="font-weight: 300;font-family: Montserrat, sans-serif;color: rgb(0,0,0);padding: 8px;padding-right: 0px;padding-left: 0px;">About Us</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="resources.html" style="font-family: Montserrat, sans-serif;font-weight: 300;color: rgb(0,0,0);padding: 8px;padding-right: 0px;padding-left: 0px;">Resources</a></li>
-                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;font-weight: 300;padding: 8px;padding-left: 0px;padding-right: 0px;">More</a>
-                            <div
-                                class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Academic + Social Advice</a><a class="dropdown-item" role="presentation" href="#">Fundraisers and Events</a></div>
-                </li>
-                </ul>
-            </div>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" style="color: rgb(0,0,0);font-family: Montserrat, sans-serif;font-weight: 300;padding: 8px;padding-left: 0px;padding-right: 0px;">More</a>
+                            <div class="dropdown-menu"
+                                role="menu"><a class="dropdown-item" role="presentation" href="advice.html">Academic + Social Advice</a><a class="dropdown-item" role="presentation" href="fundraisers.html">Fundraisers and Events</a></div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </section>
@@ -61,42 +62,32 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);*//*height: 110
             </div>
         </div>
     </div>
-    <div class="team-boxed" style="background-color: #cce2e2;">
+    <div class="team-boxed" style="background-color: #cce2e2;margin-top: 20px;">
         <div class="container">
-            <div class="intro">
-                <h1 class="text-center" id="meet-the-team" style="font-family: Montserrat, sans-serif;font-weight: 300;color: #333333;padding: 50px;font-size: 50px;">Meet the team</h1>
-            </div>
+            <div class="intro"></div>
             <div class="row people">
-                <div class="col-md-6 col-lg-4 offset-xl-2 item">
+                <div class="col-md-6 col-lg-4 offset-xl-1 item">
                     <div class="box"><img class="rounded-circle" src="assets/img/1.jpg">
-                        <h3 class="name">Ben Johnson</h3>
-                        <p class="title">Musician</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                        <h3 class="name">Trisha Jaishankar<br></h3>
+                        <p class="description">Hi!, I’m Trisha Jaishankar and I'm a rising senior at Amador Valley High School. Some of my hobbies include golfing, spending time with my friends/family, and going on boba runs.<br></p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-4 offset-xl-0 item">
+                <div class="col-md-6 col-lg-4 col-xl-4 offset-xl-2 item">
                     <div class="box"><img class="rounded-circle" src="assets/img/2.jpg">
-                        <h3 class="name">Emily Clark</h3>
-                        <p class="title">Artist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                        <h3 class="name">Shreya Musini<br></h3>
+                        <p class="description">Hi! I am Shreya Musini, a rising senior from Foothill High School. I love&nbsp;to watch tv shows on Netflix, write stories in my&nbsp;free time, and hang out with my friends.<br></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 offset-xl-1 item">
+                    <div class="box"><img class="rounded-circle" src="assets/img/3.jpg">
+                        <h3 class="name">Pooja Mehta<br></h3>
+                        <p class="description">Hi, my name is Pooja Mehta and I’m a rising senior at Foothill High School in Pleasanton, California. I’m a hardworking student, interested in learning more about life sciences, and a compassionate leader for various cultural clubs.&nbsp;<br></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 offset-xl-2 item">
                     <div class="box"><img class="rounded-circle" src="assets/img/3.jpg">
-                        <h3 class="name">Carl Kent</h3>
-                        <p class="title">Stylist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 offset-xl-0 item">
-                    <div class="box"><img class="rounded-circle" src="assets/img/3.jpg">
-                        <h3 class="name">Carl Kent</h3>
-                        <p class="title">Stylist</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                        <h3 class="name">Padma Lakshminarasimhan<br></h3>
+                        <p class="description">Hi! My name is Padma Lakshminarasimhan and I’m a rising senior at Foothill High School. I enjoy learning about neuroscience and psychology, which pushed me to create a club at our school called HOSA.<br></p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
