@@ -1,67 +1,20 @@
-#msap-title {
-  font-size: 30px;
-  font-family: Montserrat, sans-serif;
-  margin-left: 15px;
-  margin-top: 8px;
-  font-weight: 300;
-}
-
-#nav {
-  width: 100%;
-}
-
-#motto {
-  text-align: center;
-  margin-top: 8vh;
-  font-family: Montserrat, sans-serif;
-  font-weight: 300;
-  color: #333333;
-  font-size: 50px;
-}
-
-#goal {
-  margin-top: 3vh;
-  text-align: center;
-  font-family: Montserrat, sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-  background-color: white;
-  border-radius: 10px;
-}
-
-#content {
-  width: 100%;
-}
-
 li {
   margin: 20px;
   list-style: none;
 }
 
-#contact {
-  background-color: rgb(0,122,255);
-  padding: 10px;
-  border-radius: 10px;
-}
-
-#contact:hover {
-  text-decoration: none;
-}
-
-#psa-box {
-  height: 60%;
-  border-radius: 10px;
-  background-color: rgb(29,106,221);
+#main-item {
+  /*height: 60%;*/
+  border-radius: 20px;
+  background-color: #252422;
+  border: 5px solid #f28482;
 }
 
 #mentalhealth-box {
   height: 50%;
-  border-radius: 10px;
+  border-radius: 20px;
   color: rgb(255,255,255);
-  background-color: rgb(29,106,221);
+  background-color: #EB5E28;
 }
 
 .copyright {
@@ -73,8 +26,19 @@ li {
   white-space: nowrap;
   margin: 0 auto;
   /*letter-spacing: .15em;*/
-  animation: typing 3.5s steps(40, end);
+  animation: typing 3s steps(40, end);
   margin-top: 10vh;
+  color: #FFFCF2;
+  opacity: 0.90;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 8vh;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  /*width: 700px;*/
+  background-color: #f28482;
+  filter: blur(0px);
 }
 
 @keyframes typing {
@@ -90,22 +54,14 @@ li {
   height: 100%;
 }
 
-.img-fluid {
-  display: block;
-  /*margin-left: auto;*/
-  margin-right: auto;
-  width: 90%;
-  /*height: 100vh;*/
-}
-
 #mentalhealthnotfact-box {
-  border-radius: 10px;
-  background-color: rgb(29,106,221);
+  border-radius: 20px;
+  background-color: #EB5E28;
 }
 
 #calender-box {
-  border-radius: 10px;
-  background-color: rgb(29,106,221);
+  border-radius: 20px;
+  background-color: #EB5E28;
 }
 
 #meet-the-team {
@@ -447,5 +403,64 @@ html {
   padding-left: 8px;
   font-family: Montserrat, sans-serif;
   font-weight: 300;
+}
+
+#footer {
+  padding: 30px;
+  color: #f0f9ff;
+  background-color: #252422;
+  border-top: 5px solid #f28482;
+}
+
+#nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-card {
+  background-color: #252422;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#main-title {
+  color: #FFFCF2;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+#main-descrip {
+  color: #CCC5B9;
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+}
+
+#navitem {
+  color: #FFFCF2;
+  opacity: 0.90;
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+}
+
+#navitem:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #FFFCF2;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#navitem:hover:after {
+  width: 100%;
+  left: 0;
 }
 
