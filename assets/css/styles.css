@@ -1,0 +1,466 @@
+li {
+  margin: 20px;
+  list-style: none;
+}
+
+#main-item {
+  /*height: 60%;*/
+  border-radius: 20px;
+  background-color: #252422;
+  border: 5px solid #f28482;
+}
+
+#mentalhealth-box {
+  height: 50%;
+  border-radius: 20px;
+  color: rgb(255,255,255);
+  background-color: #EB5E28;
+}
+
+.copyright {
+  text-align: left;
+}
+
+#motto {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  /*letter-spacing: .15em;*/
+  animation: typing 3s steps(40, end);
+  margin-top: 10vh;
+  color: #FFFCF2;
+  opacity: 0.90;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 8vh;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  /*width: 700px;*/
+  background-color: #f28482;
+  filter: blur(0px);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.team-boxed {
+  height: 100%;
+}
+
+#mentalhealthnotfact-box {
+  border-radius: 20px;
+  background-color: #EB5E28;
+}
+
+#calender-box {
+  border-radius: 20px;
+  background-color: #EB5E28;
+}
+
+#meet-the-team {
+  margin: 10px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  color: rgb(51,51,51);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#our-story {
+  width: 50%;
+}
+
+#image-team {
+  width: 90%;
+  margin-top: 30px;
+}
+
+#line {
+  background-color: #333333;
+  width: 3px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#resources-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table thead th {
+  border: 0px;
+}
+
+.table td, .table th {
+  border: 0px;
+}
+
+#menu {
+  background: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  #msap-title {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  #motto {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 500px) {
+  #goal {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  #psa-box {
+    height: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  #mentalhealth-box {
+    height: 90%;
+  }
+}
+
+#our-story-text {
+  font-size: 190px;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  #our-story-text {
+    font-size: 100px;
+    padding-bottom: 10px;
+  }
+}
+
+#story {
+  padding-top: 30px;
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+}
+
+@media (max-width: 500px) {
+  #story {
+    font-size: 12px;
+    border-top: 2px solid white;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  #tablecellmobile {
+    font-size: 10px;
+  }
+}
+
+#learn-the-facts {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+  font-size: 144px;
+  margin-top: 3ch;
+}
+
+#urnotalone {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#image-gethelp {
+  height: 100vh;
+  width: 100%;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* Remove scrollbar space */    background: transparent;
+  /* Optional: just make scrollbar invisible */;
+}
+
+@media (max-width: 500px) {
+  #learn-the-facts {
+    font-size: 50px;
+    margin-top: 7ch;
+  }
+}
+
+@media (max-width: 500px) {
+  #image-gethelp {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 0px;
+  }
+}
+
+#destress-image {
+  width: 100%;
+  height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#article {
+  padding-top: 20px;
+}
+
+#destress {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+#destress-item {
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 1ch;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  transition: box-shadow .3s;
+  border: 0.5px solid grey;
+}
+
+#methods-back {
+  background-color: white;
+  /*border-radius: 10px;*/
+  margin-bottom: 10px;
+}
+
+#destress-item:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#fun-image {
+  padding-top: 20px;
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#fun-activites {
+  margin-top: 20px;
+}
+
+#graphic {
+}
+
+#help {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#facts {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+  font-size: 72px;
+  padding-top: 40vh;
+  /*padding-bottom: 50vh;*/
+}
+
+#alone {
+  color: rgb(255,255,255);
+  font-family: Montserrat, sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding-bottom: 50vh;
+}
+
+#blur {
+  animation: hide 1.5s ease;
+  backdrop-filter: blur(5px);
+}
+
+@keyframes hide {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  100% {
+    /*opacity: 1;*/
+    /*-webkit-filter: blur(0px);*/
+    /*-moz-filter: blur(0px);*/
+    /*-o-filter: blur(0px);*/
+    /*-ms-filter: blur(0px);*/
+    /*backdrop-filter: blur(5px);*/
+  }
+}
+
+#calender {
+  /*margin-top: 10px;*/
+}
+
+#donation {
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#background {
+  background-image: url("../../assets/img/remi-walle-UOwvwZ9Dy6w-unsplash.jpg");
+}
+
+@media (max-width: 500px) {
+  #background {
+    background-position: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #destress-image {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  #methods-back {
+    margin: 0px;
+    background-image: url("../../assets/img/jen-p-FoG8lotg7AA-unsplash.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 500px) {
+  #destress {
+    font-family: Lora, serif;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 100;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  #fun-activites {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  #calender {
+    height: 70vh;
+    padding: 10px;
+  }
+}
+
+#idontknowhatonamethis {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: rgb(255,255,255);
+}
+
+@media (max-width: 500px) {
+  #idontknowhatonamethis {
+    font-weight: 200;
+  }
+}
+
+#nav-item {
+  color: rgb(0,0,0);
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+#footer {
+  padding: 30px;
+  color: #f0f9ff;
+  background-color: #252422;
+  border-top: 5px solid #f28482;
+}
+
+#nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-card {
+  background-color: #252422;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#main-title {
+  color: #FFFCF2;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+#main-descrip {
+  color: #CCC5B9;
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+}
+
+#navitem {
+  color: #FFFCF2;
+  opacity: 0.90;
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+}
+
+#navitem:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #FFFCF2;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#navitem:hover:after {
+  width: 100%;
+  left: 0;
+}
+
