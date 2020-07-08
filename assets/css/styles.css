@@ -439,3 +439,13 @@ html {
   }
 }
 
+#nav-item {
+  color: rgb(0,0,0);
+  padding-top: 0px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
